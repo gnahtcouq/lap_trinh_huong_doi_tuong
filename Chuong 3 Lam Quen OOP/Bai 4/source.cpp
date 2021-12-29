@@ -31,6 +31,7 @@ Co 2 loai thue: GST 7%, PST 8%
 //        con phuong thuc la dong tu
 
 #include <iostream>
+#include <iomanip>
 #include <vector>
 using namespace std;
 
@@ -116,7 +117,7 @@ void HoSo::nhap() {
 
   if (kiemTraThue == 1)
     do {
-      cout << "\nNhap vao loai thue (1: GST - 7%, 0: PST - 8%) ";
+      cout << "Nhap vao loai thue (1: GST - 7%, 0: PST - 8%) ";
       cin >> loaiThue;
       if (loaiThue != 0 && loaiThue != 1)
         cout << "\nLoai thue khong hop le. Xin kiem tra lai" << endl;
@@ -125,17 +126,17 @@ void HoSo::nhap() {
 }
 
 void HoSo::xuat() {
-  cout << "\nSo luong: " << soLuong;
-  cout << "\nGia tien: " << giaTien;
+  cout << setw(10) << left << soLuong << "\t";
+  cout << setw(30) << left << giaTien << "\t";
   if (kiemTraThue == 1) {
     if (loaiThue == 1)
-      cout << "\nMat hang nay co thue GST 7%";
+      cout << setw(30) << left << "Mat hang nay co thue GST 7%" << "\t";
     else
-      cout << "\nMat hang nay co thue PST 8%";
+      cout << setw(30) << left << "Mat hang nay co thue PST 8%" << "\t";
   }
   else
-    cout << "\nMat hang nay khong thue";
-  cout << "\nSo tien phai tra la: " << tinhTien();
+    cout << setw(30) << left << "Mat hang nay khong thue" << "\t";
+  cout << setw(50) << left << tinhTien() << "\t" << endl;
 }
 
 float HoSo::tinhTien() {
@@ -162,19 +163,17 @@ void DanhSachHoSo::nhap() {
   int luaChon;
   int dem = 1;
   do {
-    cout << "\n---------- MENU ----------\n";
     cout << "\n0. Ket thuc";
     cout << "\n1. Nhap ho so";
-    cout << "\n--------------------------\n";
     do {
-      cout << "\nNhap vao lua chon: ";
+      cout << "\nVui long chon: ";
       cin >> luaChon;
       if (luaChon != 0 && luaChon != 1)
-        cout << "\nLua chon khong hop le. Xin kiem tra lai";
+        cout << "\nLua chon khong hop le. Xin kiem tra lai" << endl;
     } while (luaChon != 0 && luaChon != 1);
 
     if (luaChon == 1) {
-      cout << "\n\n\tNHAP THONG TIN HO SO THU " << dem++ << "\n";
+      cout << "\n\n\tNHAP THONG TIN HO SO THU " << dem++;
       HoSo *x = new HoSo;
       x->nhap(); // Nhap du lieu cho ho so
       list.push_back(x); // Dua ho so vao trong list
@@ -185,8 +184,11 @@ void DanhSachHoSo::nhap() {
 }
 
 void DanhSachHoSo::xuat() {
+  cout << setw(10) << left << "So luong" << "\t";
+  cout << setw(30) << left << "Gia tien" << "\t";
+  cout << setw(30) << left << "Loai thue" << "\t";
+  cout << setw(50) << left << "So tien phai tra" << "\t" << endl; 
   for (int i = 0; i < list.size(); i++) {
-    cout << "\n\n\t THONG TIN BO HO SO THU " << i + 1 << "\n";
     list[i]->xuat();
   }
 }
