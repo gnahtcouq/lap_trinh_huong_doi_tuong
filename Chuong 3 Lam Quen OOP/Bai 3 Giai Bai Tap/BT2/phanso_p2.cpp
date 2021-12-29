@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int timUCLN(int a, int b);
@@ -35,6 +36,9 @@ int main() {
   // cout << "\nPhan so sau khi rut gon la: ";
   // ps1.xuat();
 
+
+
+
   cout << "\n\tNhap ps1";
   ps1.nhap();
   cout << "\n\tNhap ps2";
@@ -68,6 +72,26 @@ int main() {
   cout << "\nThuong da rut gon = ";
   thuong.rutGon();
   thuong.xuat();
+
+
+
+  // PhanSo ps1, ps2, ps3, ps4;
+  // PhanSo tong;
+
+  // tong = ps1.tinhTong(ps2);
+  // tong = tong.tinhTong(ps3);
+  // tong = tong.tinhTong(ps4);
+
+
+
+  // vector<PhanSo> arr;
+  // arr.resize(5); // co 5 phan so
+
+  // PhanSo tong = arr[0];
+  // int size = arr.size();
+  // for (int i = 1; i < size; i++) {
+  //   tong = tong.tinhTong(arr[i]);
+  // }
   
   
   system("pause");
