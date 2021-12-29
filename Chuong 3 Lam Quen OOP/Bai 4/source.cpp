@@ -31,6 +31,7 @@ Co 2 loai thue: GST 7%, PST 8%
 //        con phuong thuc la dong tu
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 
@@ -49,18 +50,37 @@ public:
   ~HoSo(void);
 };
 
+// DanhSachHoSo.h
+class DanhSachHoSo {
+private:
+  vector<HoSo *> list;
+public:
+  void nhap();
+  void xuat();
+  float tinhTongTien();
+  DanhSachHoSo(void);
+  ~DanhSachHoSo(void);
+};
+
 int main() {
   // HoSo h1;
   // cout << "\nsizeof(h1) = " << sizeof(h1);
   // h1.nhap();
   // h1.xuat();
 
-  HoSo *h1 = new HoSo; // Tao ra doi tuong con tro. Cap phat bo nho
-  cout << "\nsizeof(h1) = " << sizeof(h1);
+  // HoSo *h1 = new HoSo; // Tao ra doi tuong con tro. Cap phat bo nho
+  // cout << "\nsizeof(h1) = " << sizeof(h1);
 
-  h1->nhap();
-  h1->xuat();
-  delete(h1); // Giai phong bo nho
+  // h1->nhap();
+  // h1->xuat();
+  // delete(h1); // Giai phong bo nho
+
+  DanhSachHoSo *x = new DanhSachHoSo;
+  x->nhap();
+  x->xuat();
+  cout << "\nTong tien thu duoc = " << x->tinhTongTien();
+  delete x;
+
 
   system("pause");
   return 0;
@@ -134,5 +154,55 @@ HoSo::HoSo(void) {
 }
 
 HoSo::~HoSo(void) {
+
+}
+
+// DanhSachHoSo.cpp
+void DanhSachHoSo::nhap() {
+  int luaChon;
+  int dem = 1;
+  do {
+    cout << "\n---------- MENU ----------\n";
+    cout << "\n0. Ket thuc";
+    cout << "\n1. Nhap ho so";
+    cout << "\n--------------------------\n";
+    do {
+      cout << "\nNhap vao lua chon: ";
+      cin >> luaChon;
+      if (luaChon != 0 && luaChon != 1)
+        cout << "\nLua chon khong hop le. Xin kiem tra lai";
+    } while (luaChon != 0 && luaChon != 1);
+
+    if (luaChon == 1) {
+      cout << "\n\n\tNHAP THONG TIN HO SO THU " << dem++ << "\n";
+      HoSo *x = new HoSo;
+      x->nhap(); // Nhap du lieu cho ho so
+      list.push_back(x); // Dua ho so vao trong list
+      
+      // delete x; // O day khong duoc delete vi con su dung lai o duoi
+    }
+  } while (luaChon != 0);
+}
+
+void DanhSachHoSo::xuat() {
+  for (int i = 0; i < list.size(); i++) {
+    cout << "\n\n\t THONG TIN BO HO SO THU " << i + 1 << "\n";
+    list[i]->xuat();
+  }
+}
+
+float DanhSachHoSo::tinhTongTien() {
+  float tong = 0;
+  for (int i = 0; i < list.size(); i++)
+    tong += list[i]->tinhTien();
+  return tong;
+}
+
+
+DanhSachHoSo::DanhSachHoSo(void) {
+
+}
+
+DanhSachHoSo::~DanhSachHoSo(void) {
 
 }
