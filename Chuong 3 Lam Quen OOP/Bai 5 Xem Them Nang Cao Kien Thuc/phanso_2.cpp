@@ -12,6 +12,7 @@ public:
   PhanSo tinhHieu(PhanSo);
   PhanSo tinhTich(PhanSo);
   PhanSo tinhThuong(PhanSo);
+  bool kiemTraLonHon(PhanSo); // true: ps1 > ps2, false: ps1 < ps2
 };
 
 
@@ -42,6 +43,11 @@ int main() {
   cout << "\nThuong ps1 / ps2 = ";
   thuong.rutGon();
   thuong.xuat();
+
+  if (ps1.kiemTraLonHon(ps2))
+    cout << "\nps1 > ps2";
+  else
+    cout << "\nps1 < ps2";
 
   system("pause");
   return 0;
@@ -114,4 +120,17 @@ PhanSo PhanSo::tinhThuong(PhanSo b) {
   b_nghichdao.tuSo = b.mauSo;
   b_nghichdao.mauSo = b.tuSo;
   return (*this).tinhTich(b_nghichdao);
+}
+
+bool PhanSo::kiemTraLonHon(PhanSo b) {
+  // Cach 1
+  // if ((float)tuSo / mauSo > (float)b.tuSo / b.mauSo)
+  //   return true;
+  // return false;
+
+  // Cach 2
+  // return (float)tuSo / mauSo > (float)b.tuSo / b.mauSo ? true : false;
+
+  // Cach 3
+  return (float)tuSo / mauSo > (float)b.tuSo / b.mauSo;
 }
