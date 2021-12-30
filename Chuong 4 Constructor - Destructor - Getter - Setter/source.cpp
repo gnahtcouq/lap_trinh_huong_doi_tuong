@@ -72,7 +72,7 @@ int main() {
   cout << "\n hs2";
   hs2.xuat();
 
-  cout << "\n\n-> Thay doi hs1";
+  cout << "\n\n -> Thay doi hs1";
   hs1.thayDoi();
   cout << "\n\n hs1 sau khi thay doi";
   hs1.xuat();
