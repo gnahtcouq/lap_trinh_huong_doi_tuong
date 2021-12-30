@@ -26,6 +26,11 @@ int main() {
   PhanSo tong = a.tinhTong(b);
   tong.xuatPhanSo();
 
+  cout << "\na + b = ";
+  tong = a.tinhTong(b);
+  tong.rutGonPhanSo();
+  tong.xuatPhanSo();
+
   system("pause");
   return 0;
 }
@@ -53,22 +58,35 @@ PhanSo PhanSo::tinhTong(PhanSo x) {
   return tong;
 }
 
-PhanSo PhanSo::tinhHieu(PhanSo x) {
+// PhanSo PhanSo::tinhHieu(PhanSo x) {
   
-}
+// }
 
-PhanSo PhanSo::tinhTich(PhanSo x) {
+// PhanSo PhanSo::tinhTich(PhanSo x) {
   
-}
+// }
 
-PhanSo PhanSo::tinhThuong(PhanSo x) {
+// PhanSo PhanSo::tinhThuong(PhanSo x) {
   
+// }
+
+int timUCLN(int a, int b) {
+  if (a < 0)
+    a *= -1;
+  if (b < 0)
+    b *= -1;
+
+  while (a != b) {
+    if (a > b)
+      a -= b;
+    else
+      b -= a;
+  }
+  return a;
 }
 
 void PhanSo::rutGonPhanSo() {
-
-}
-
-int timUCLN(int a, int b) {
-
+  int ucln = timUCLN(tuSo, mauSo);
+  tuSo /= ucln;
+  mauSo /= ucln;
 }
