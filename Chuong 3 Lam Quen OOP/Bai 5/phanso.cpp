@@ -15,6 +15,16 @@ public:
 };
 
 int main() {
+  PhanSo a, b;
+  cout << "\nNhap phan so a";
+  a.nhapPhanSo();
+
+  cout << "\nNhap phan so b";
+  b.nhapPhanSo();
+
+  cout << "\na + b = ";
+  PhanSo tong = a.tinhTong(b);
+  tong.xuatPhanSo();
 
   system("pause");
   return 0;
