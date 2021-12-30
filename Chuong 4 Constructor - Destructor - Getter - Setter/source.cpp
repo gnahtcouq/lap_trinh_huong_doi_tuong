@@ -34,6 +34,14 @@ public:
     *diem = *x.diem; // Copy du lieu qua
   }
 
+  // Ham huy
+  ~HocSinh() {
+    // Neu trong lop ma khong co con tro thi ham huy khoi can cai dat
+    // Neu trong lop ma co con tro thi ben trong ham huy phai giai phong con tro
+    cout << "ham huy chay" << endl;
+    delete diem;
+  }
+
   void thayDoi() {
     (*diem)--;
   }
