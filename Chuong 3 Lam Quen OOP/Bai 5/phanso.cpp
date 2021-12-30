@@ -12,24 +12,44 @@ public:
   PhanSo tinhThuong(PhanSo);
   PhanSo tinhTich(PhanSo);
   void rutGonPhanSo();
+  PhanSo(void);
+  ~PhanSo(void);
 };
 
 int main() {
-  PhanSo a, b;
-  cout << "\nNhap phan so a";
-  a.nhapPhanSo();
+  // PhanSo a, b;
+  // cout << "\nNhap phan so a";
+  // a.nhapPhanSo();
 
-  cout << "\nNhap phan so b";
-  b.nhapPhanSo();
+  // cout << "\nNhap phan so b";
+  // b.nhapPhanSo();
 
-  cout << "\na + b = ";
-  PhanSo tong = a.tinhTong(b);
+  // cout << "\na + b = ";
+  // PhanSo tong = a.tinhTong(b);
+  // tong.xuatPhanSo();
+
+  // cout << "\na + b = ";
+  // tong = a.tinhTong(b);
+  // tong.rutGonPhanSo();
+  // tong.xuatPhanSo();
+
+
+  PhanSo arr[5];
+  int n = 3;
+
+  for (int i = 0; i < n; i++) {
+    cout << "\nNhap thong tin phan so thu " << i + 1;
+    arr[i].nhapPhanSo();
+  }
+
+  // Tinh tong cua mang phan so nhu sau
+  PhanSo tong;
+  for (int i = 0; i < n; i++)
+    tong = arr[i].tinhTong(tong);
+
+  cout << "\nTong cac phan so la: ";
   tong.xuatPhanSo();
 
-  cout << "\na + b = ";
-  tong = a.tinhTong(b);
-  tong.rutGonPhanSo();
-  tong.xuatPhanSo();
 
   system("pause");
   return 0;
@@ -89,4 +109,13 @@ void PhanSo::rutGonPhanSo() {
   int ucln = timUCLN(tuSo, mauSo);
   tuSo /= ucln;
   mauSo /= ucln;
+}
+
+PhanSo::PhanSo(void) {
+  tuSo = 0;
+  mauSo = 1;
+}
+
+PhanSo::~PhanSo(void) {
+
 }
