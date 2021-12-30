@@ -38,7 +38,9 @@ public:
   ~HocSinh() {
     // Neu trong lop ma khong co con tro thi ham huy khoi can cai dat
     // Neu trong lop ma co con tro thi ben trong ham huy phai giai phong con tro
-    cout << "ham huy chay" << endl;
+
+
+    // cout << "ham huy chay" << endl;
     delete diem;
   }
 
@@ -49,6 +51,14 @@ public:
   void inDiaChi() {
     cout << "\n\tDia chi: " << &diem;
     cout << "\n\tMien gia tri " << diem;
+  }
+
+  string getter_ten() {
+    return ten;
+  }
+
+  void setter_ten(string t) {
+    ten = t;
   }
 };
 
@@ -90,6 +100,10 @@ int main() {
         }
   
   */
+  cout << "\nTen hoc sinh hs1 = " << hs1.getter_ten();
+
+  hs1.setter_ten("Doanh");
+  cout << "\nTen hoc sinh hs1 = " << hs1.getter_ten();
 
   system("pause");
   return 0;
