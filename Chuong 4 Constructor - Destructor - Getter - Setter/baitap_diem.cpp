@@ -36,6 +36,9 @@ int main() {
   cout << "\nd4";
   d4.xuat();
 
+  float khoangcach = d1.tinhKhoangCach(d2);
+  cout << "\nKhoang cach = " << khoangcach;
+
   system("pause");
   return 0;
 }
