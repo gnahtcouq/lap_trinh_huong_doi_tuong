@@ -1,7 +1,11 @@
-namespace Lam_Quen_C_Sharp
+﻿using System;
+
+namespace Lam_quen_C_Sharp
 {
-  class Lam_Quen_C_Sharp {
-    static void Main(string[] args) {
+  class Program
+  {
+    static void Main(string[] args)
+    {
       // int x;
       // do {
       //   Console.Write("\nNhap vao x = "); // <=> cout
@@ -50,20 +54,22 @@ namespace Lam_Quen_C_Sharp
       //   Console.Write("{0}\n", item);
       // }
 
-      
+
 
       // string ten = Console.Readline();
 
       int x;
     thangdeptrai:
-        Console.Write("\nNhap vao x = "); // <=> cout
-        try {
-          x = int.Parse(Console.ReadLine()); // <=> cin
-        }
-        catch {
-          Console.Write("\nKieu du lieu khong hop le. Xin kiem tra lai");
-          goto thangdeptrai;
-        }
+      Console.Write("\nNhap vao x = "); // <=> cout
+      try
+      {
+        x = int.Parse(Console.ReadLine()); // <=> cin
+      }
+      catch
+      {
+        Console.Write("\nKieu du lieu khong hop le. Xin kiem tra lai");
+        goto thangdeptrai;
+      }
 
 
       // Console.ReadKey(); // system("pause)

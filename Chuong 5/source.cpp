@@ -8,7 +8,7 @@ private:
 public:
   Ngay(void); // Khoi tao mac dinh
   Ngay(int, int, int); // Khoi tam tham so: nam-thang-ngay
-  Ngay(const Ngay &); // Khoi tao sao chep
+  Ngay(const Ngay&); // Khoi tao sao chep
   ~Ngay(void); // Huy
   void xuat();
 
@@ -33,7 +33,7 @@ public:
   SinhVien(string, string, Ngay); // Khoi tao 3 tham so la MSSV va Ten va Ngay sinh
   SinhVien(string, string, Ngay, float, float); // Khoi tao 5 tham so la MSSV va Ten va Ngay sinh va DLT va DTH
   SinhVien(string, string, int, int, int, float, float); // Khoi tao 7 tham so la MSSV va Ten va Ngay va Thang va Nam va DLT va DTH
-  SinhVien(const SinhVien &); // sao chep
+  SinhVien(const SinhVien&); // sao chep
   void xuat();
   ~SinhVien(void); // Huy
 };
@@ -93,7 +93,7 @@ Ngay::Ngay(int year, int month, int day) {
 }
 
 // Khoi tao sao chep
-Ngay::Ngay(const Ngay &x) {
+Ngay::Ngay(const Ngay& x) {
   ngay = x.ngay;
   thang = x.thang;
   nam = x.nam;
@@ -118,7 +118,7 @@ int Ngay::getter_thang() {
 
 void Ngay::setter_thang(int month) {
   thang = month;
-}  
+}
 
 
 int Ngay::getter_nam() {
@@ -201,7 +201,7 @@ SinhVien::SinhVien(string mssv, string ten, int year, int month, int day, float 
   DTH = dth;
 }
 
-SinhVien::SinhVien(const SinhVien &sv) {
+SinhVien::SinhVien(const SinhVien& sv) {
   MSSV = sv.MSSV;
   hoTen = sv.hoTen;
   ngaySinh = sv.ngaySinh;

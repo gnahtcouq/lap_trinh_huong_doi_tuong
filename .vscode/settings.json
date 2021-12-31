@@ -44,5 +44,6 @@
     "xtr1common": "cpp",
     "xutility": "cpp",
     "iomanip": "cpp"
-  }
+  },
+  "csharpfixformat.style.braces.onSameLine": false
 }
