@@ -10,8 +10,14 @@ public:
   Ngay(int, int, int); // Khoi tam tham so: nam-thang-ngay
   Ngay(const Ngay &); // Khoi tao sao chep
   ~Ngay(void); // Huy
-  void nhap();
   void xuat();
+
+  int getter_ngay();
+  void setter_ngay(int);
+  int getter_thang();
+  void setter_thang(int);
+  int getter_nam();
+  void setter_nam(int);
 };
 
 class SinhVien {
@@ -26,6 +32,8 @@ public:
   SinhVien(string, string, float, float); // Khoi tao 4 tham so la MSSV va Ten va DLT va DTH
   SinhVien(string, string, Ngay); // Khoi tao 3 tham so la MSSV va Ten va Ngay sinh
   SinhVien(string, string, Ngay, float, float); // Khoi tao 5 tham so la MSSV va Ten va Ngay sinh va DLT va DTH
+  SinhVien(string, string, int, int, int, float, float); // Khoi tao 7 tham so la MSSV va Ten va Ngay va Thang va Nam va DLT va DTH
+  SinhVien(const SinhVien &); // sao chep
   void xuat();
   ~SinhVien(void); // Huy
 };
@@ -57,6 +65,15 @@ int main() {
   SinhVien f("DH52007101", "Tran Van Quoc Thang", ngaySinh, 7, 8);
   f.xuat();
 
+  cout << "\n\n-> sinh vien g";
+  SinhVien g("DH52007101", "Tran Van Quoc Thang", 2002, 10, 4, 7, 8);
+  g.xuat();
+
+  cout << "\n\n-> sinh vien h";
+  SinhVien h(d);
+  h.xuat();
+
+
   system("pause");
   return 0;
 }
@@ -84,6 +101,32 @@ Ngay::Ngay(const Ngay &x) {
 
 void Ngay::xuat() {
   cout << "\nNgay " << ngay << " thang " << thang << " nam " << nam;
+}
+
+int Ngay::getter_ngay() {
+  return ngay;
+}
+
+void Ngay::setter_ngay(int day) {
+  ngay = day;
+}
+
+
+int Ngay::getter_thang() {
+  return thang;
+}
+
+void Ngay::setter_thang(int month) {
+  thang = month;
+}  
+
+
+int Ngay::getter_nam() {
+  return nam;
+}
+
+void Ngay::setter_nam(int year) {
+  nam = year;
 }
 
 // Ham huy
@@ -142,6 +185,28 @@ SinhVien::SinhVien(string mssv, string ten, Ngay ngaysinh, float dlt, float dth)
   ngaySinh = ngaysinh;
   DLT = dlt;
   DTH = dth;
+}
+
+SinhVien::SinhVien(string mssv, string ten, int year, int month, int day, float dlt, float dth) {
+  MSSV = mssv;
+  hoTen = ten;
+  // Ngay tam(year, month, day);
+  // ngaySinh = tam;
+
+  ngaySinh.setter_nam(year);
+  ngaySinh.setter_thang(month);
+  ngaySinh.setter_ngay(day);
+
+  DLT = dlt;
+  DTH = dth;
+}
+
+SinhVien::SinhVien(const SinhVien &sv) {
+  MSSV = sv.MSSV;
+  hoTen = sv.hoTen;
+  ngaySinh = sv.ngaySinh;
+  DLT = sv.DLT;
+  DTH = sv.DTH;
 }
 
 
