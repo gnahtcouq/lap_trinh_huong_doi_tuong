@@ -1,0 +1,15 @@
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\Lam Quen C Sharp.exe
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\Lam Quen C Sharp.deps.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\Lam Quen C Sharp.runtimeconfig.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\Lam Quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\ref\Lam Quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\bin\Debug\net6.0\Lam Quen C Sharp.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.csproj.AssemblyReference.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.AssemblyInfoInputs.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.AssemblyInfo.cs
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\ref\Lam Quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam Quen C Sharp\obj\Debug\net6.0\Lam Quen C Sharp.genruntimeconfig.cache
