@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj": {}
+    "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj": {
+    "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj",
+        "projectUniqueName": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj",
         "projectName": "Bai 1",
-        "projectPath": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj",
+        "projectPath": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\Bai 1.csproj",
         "packagesPath": "C:\\Users\\comeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\obj\\",
+        "outputPath": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Bai 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\comeh\\AppData\\Roaming\\NuGet\\NuGet.Config"
