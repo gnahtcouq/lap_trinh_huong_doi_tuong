@@ -1,11 +1,52 @@
-﻿using System.Collections;
-using System;
+﻿using System;
 
 namespace Bai_1 {
+  class Ngay {
+    private int day, month, year;
+
+    public int Day {
+      get { return day; }
+      set {
+        day = value;
+      }
+    }
+
+    // public int getter_day() {
+    //   return day;
+    // }
+
+    // public void setter_day(int d) {
+    //   day = d;
+    // }
+
+    public void nhap() {
+      Console.Write("\nNhap ngay: ");
+      day = int.Parse(Console.ReadLine());
+
+      Console.Write("Nhap thang: ");
+      month = int.Parse(Console.ReadLine());
+
+      Console.Write("Nhap nam: ");
+      year = int.Parse(Console.ReadLine());
+    }
+
+    public void xuat() {
+      Console.Write("{0}/{1}/{2}", day, month, year);
+    }
+  }
   class HocSinh {
     // Khai bao thuoc tinh
     private string maSo, hoTen;
     private double diemToan, diemLy, diemHoa; // Nen dung double de tranh bi bat ep kieu lai
+    private Ngay ngaySinh = new Ngay();
+
+    internal Ngay NgaySinh {
+      get { return ngaySinh; }
+      set {
+        ngaySinh = value;
+      }
+    }
+
     public void nhap() {
       Console.Write("\nNhap vao ma so: ");
       maSo = Console.ReadLine();
@@ -14,6 +55,9 @@ namespace Bai_1 {
       Console.Write("Nhap vao ho ten: ");
       hoTen = Console.ReadLine();
       // this.hoTen = Console.ReadLine();
+
+      Console.Write("Nhap vao ngay sinh");
+      ngaySinh.nhap();
 
 
       while (true) {
@@ -65,6 +109,8 @@ namespace Bai_1 {
     public void xuat() {
       Console.Write("\nMa so: {0}", this.maSo);
       Console.Write("\nHo ten: " + this.hoTen);
+      Console.Write("\nSinh ngay: ");
+      ngaySinh.xuat();
       Console.Write("\nDiem toan: {0}", this.diemToan);
       Console.Write("\nDiem ly: {0}", this.diemLy);
       Console.Write("\nDiem hoa: {0}", this.diemHoa);
@@ -103,6 +149,7 @@ namespace Bai_1 {
 
       HocSinh hs1 = new HocSinh();
       hs1.nhap();
+      hs1.NgaySinh.Day = 20;
       hs1.xuat();
       double dtb = hs1.tinhDiemTrungBinh();
       Console.Write("\nDiem trung binh = " + dtb);
