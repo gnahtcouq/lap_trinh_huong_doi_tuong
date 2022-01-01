@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Lam quen C Sharp/1.0.0": {
+        "runtime": {
+          "Lam quen C Sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lam quen C Sharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

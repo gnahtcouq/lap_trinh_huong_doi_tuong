@@ -5,7 +5,7 @@ using namespace std;
 class HocSinh {
 private:
   string ten;
-  float *diem;
+  float* diem;
 public:
   void xuat() {
     cout << "\nTen: " << ten;
@@ -28,7 +28,7 @@ public:
   }
 
   // Khoi tao sao chep
-  HocSinh(const HocSinh &x) {
+  HocSinh(const HocSinh& x) {
     ten = x.ten;
     diem = new float; // Tao 1 vung nho khac
     *diem = *x.diem; // Copy du lieu qua
@@ -65,7 +65,7 @@ public:
 int main() {
   HocSinh hs1("Thao", 7.7);
   HocSinh hs2(hs1); // Khoi tao sao chep
-  
+
   cout << "\n hs1";
   hs1.xuat();
 
@@ -90,7 +90,7 @@ int main() {
   // cout << "\n\n-> Mien gia tri cua 2 con tro giong nhau";
 
 
-  /* LUU Y: Khi hs1 goi toi phuong thuc thayDoi lam giam di 1 diem cua hs1 thi tu nhien hs2 cung bi giam di 1 diem 
+  /* LUU Y: Khi hs1 goi toi phuong thuc thayDoi lam giam di 1 diem cua hs1 thi tu nhien hs2 cung bi giam di 1 diem
 
   Boi vi neu nhu ta khong khai bao ham dung sao chep thi trinh bien dich se ngam lam nhu sau
 
@@ -98,7 +98,7 @@ int main() {
           ten = x.ten;
           diem = x.diem;
         }
-  
+
   */
   cout << "\nTen hoc sinh hs1 = " << hs1.getter_ten();
 

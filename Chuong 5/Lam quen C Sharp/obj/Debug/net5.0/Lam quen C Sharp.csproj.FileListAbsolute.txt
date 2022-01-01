@@ -1,0 +1,16 @@
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.exe
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.deps.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.runtimeconfig.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.runtimeconfig.dev.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\ref\Lam quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\bin\Debug\net5.0\Lam quen C Sharp.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.csproj.AssemblyReference.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.AssemblyInfoInputs.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.AssemblyInfo.cs
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.csproj.CoreCompileInputs.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\ref\Lam quen C Sharp.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 5\Lam quen C Sharp\obj\Debug\net5.0\Lam quen C Sharp.genruntimeconfig.cache
