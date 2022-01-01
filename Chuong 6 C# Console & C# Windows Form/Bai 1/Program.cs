@@ -4,6 +4,25 @@ namespace Bai_1 {
   class Ngay {
     private int day, month, year;
 
+    // Khoi tao mac dinh
+    public Ngay() {
+      day = month = year = 1;
+    }
+
+    // Khoi tam tham so
+    public Ngay(int ngay, int thang, int nam) {
+      day = ngay;
+      month = thang;
+      year = nam;
+    }
+
+    // Khoi tao sao chep
+    public Ngay(Ngay x) {
+      day = x.day;
+      month = x.month;
+      year = x.year;
+    }
+
     public int Day {
       get { return day; }
       set {
