@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 5\\Lam Quen C Sharp\\Lam Quen C Sharp.csproj": {}
+    "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Cach chia file\\Cach chia file.csproj": {}
   },
   "projects": {
-    "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 5\\Lam Quen C Sharp\\Lam Quen C Sharp.csproj": {
+    "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Cach chia file\\Cach chia file.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 5\\Lam Quen C Sharp\\Lam Quen C Sharp.csproj",
-        "projectName": "Lam Quen C Sharp",
-        "projectPath": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 5\\Lam Quen C Sharp\\Lam Quen C Sharp.csproj",
+        "projectUniqueName": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Cach chia file\\Cach chia file.csproj",
+        "projectName": "Cach chia file",
+        "projectPath": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Cach chia file\\Cach chia file.csproj",
         "packagesPath": "C:\\Users\\comeh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 5\\Lam Quen C Sharp\\obj\\",
+        "outputPath": "c:\\Users\\comeh\\Documents\\GitHub\\LapTrinhHuongDoiTuong\\Chuong 6 C# Console & C# Windows Form\\Cach chia file\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\comeh\\AppData\\Roaming\\NuGet\\NuGet.Config"

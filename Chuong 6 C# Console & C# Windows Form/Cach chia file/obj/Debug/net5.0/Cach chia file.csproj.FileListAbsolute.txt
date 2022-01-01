@@ -1,0 +1,16 @@
+c:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.csproj.AssemblyReference.cache
+c:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.AssemblyInfoInputs.cache
+c:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.AssemblyInfo.cs
+c:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.csproj.CoreCompileInputs.cache
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.exe
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.deps.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.runtimeconfig.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.runtimeconfig.dev.json
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\ref\Cach chia file.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\bin\Debug\net5.0\Cach chia file.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\ref\Cach chia file.dll
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.pdb
+C:\Users\comeh\Documents\GitHub\LapTrinhHuongDoiTuong\Chuong 6 C# Console & C# Windows Form\Cach chia file\obj\Debug\net5.0\Cach chia file.genruntimeconfig.cache

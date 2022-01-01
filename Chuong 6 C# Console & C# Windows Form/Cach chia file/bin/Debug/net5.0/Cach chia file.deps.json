@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Lam Quen C Sharp/1.0.0": {
+      "Cach chia file/1.0.0": {
         "runtime": {
-          "Lam Quen C Sharp.dll": {}
+          "Cach chia file.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Lam Quen C Sharp/1.0.0": {
+    "Cach chia file/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
