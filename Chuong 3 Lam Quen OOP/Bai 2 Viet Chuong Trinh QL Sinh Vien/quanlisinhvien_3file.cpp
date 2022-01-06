@@ -11,7 +11,6 @@ public:
   void xuat();
 };
 
-
 // SinhVien.h
 class SinhVien {
 private:
