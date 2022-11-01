@@ -1,0 +1,15 @@
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\bin\Debug\net6.0\try catch.exe
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\bin\Debug\net6.0\try catch.deps.json
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\bin\Debug\net6.0\try catch.runtimeconfig.json
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\bin\Debug\net6.0\try catch.dll
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\bin\Debug\net6.0\try catch.pdb
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.csproj.AssemblyReference.cache
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.AssemblyInfoInputs.cache
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.AssemblyInfo.cs
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.csproj.CoreCompileInputs.cache
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.dll
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\refint\try catch.dll
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.pdb
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\try catch.genruntimeconfig.cache
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Bai 3 Giai Bai Tap OOP\try catch\try catch\obj\Debug\net6.0\ref\try catch.dll
