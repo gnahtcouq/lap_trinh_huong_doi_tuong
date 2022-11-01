@@ -1,0 +1,4 @@
+﻿  HoSo.cpp
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Giai Bai Tap OOP Co Ban\Giai Bai Tap OOP Co Ban\HoSo.cpp(52,16): warning C4305: '*=': truncation from 'double' to 'float'
+C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Giai Bai Tap OOP Co Ban\Giai Bai Tap OOP Co Ban\HoSo.cpp(54,16): warning C4305: '*=': truncation from 'double' to 'float'
+  Giai Bai Tap OOP Co Ban.vcxproj -> C:\Users\comeh\Documents\GitHub\lap_trinh_huong_doi_tuong\Chuong 3 Lam Quen OOP (2022)\Giai Bai Tap OOP Co Ban\x64\Debug\Giai Bai Tap OOP Co Ban.exe
