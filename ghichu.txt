@@ -1,6 +1,0 @@
-Use the old program style
-
-1. Create a new project
-dotnet new console --framework net5.0
-
-2. Open the project file in a text editor and change <TargetFramework>net5.0</TargetFramework> to <TargetFramework>net6.0</TargetFramework>.
